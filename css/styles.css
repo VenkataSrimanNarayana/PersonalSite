@@ -30,6 +30,12 @@ a{
   text-decoration: none;
 }
 
+a:hover{
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+}
+
 hr{
   border-style: dotted none none;
   border-top-width: 5px;
