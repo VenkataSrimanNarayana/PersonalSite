@@ -1,0 +1,155 @@
+/****************** TAG SELECTORS ********************/
+body{
+  margin: 0;
+  text-align: center;
+  background-color: #FDF6F0;
+  font-size: 1.25em;
+}
+
+h1{
+  margin: 20px auto 0;
+  font-family: 'Dancing Script', cursive;
+  font-size: 5rem;
+  color: #402218;
+}
+
+h2{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.875rem;
+  color: #402218;
+}
+
+h3{
+  font-family: 'Open Sans', sans-serif;
+  color: #FAAD80;
+}
+
+a{
+  color: #FAAD80;
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+}
+
+hr{
+  border-style: dotted none none;
+  border-top-width: 5px;
+  border-top-color: #F5C6AA;
+  width: 5%;
+}
+/****************** CLASS SELECTORS ********************/
+.top-container{
+  background-color:  #F8E2CF;
+  padding-top: 137px;
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.profile{
+  margin: 100px auto;
+}
+
+.skills{
+  margin: 100px auto;
+}
+
+.contact-me-div{
+  margin: 100px auto;
+  width: 50%;
+  line-height: 2;
+}
+
+.bottom-container{
+  padding: 40px 0 20px;
+  background-color: #F8E2CF;
+}
+
+.underlined_text{
+  text-decoration: underline;
+}
+
+.upper_cloud{
+  position: absolute;
+  left: 67%;
+  top: 80px
+}
+
+.lower_cloud{
+  position: absolute;
+  right: 67%;
+}
+.mountain{
+  position: relative;
+  bottom: -5px;
+}
+.h2-tagline{
+  font-weight: normal;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.ai-img{
+  width: 25%;
+  float: left;
+  margin: 0 30px 10px 0;
+}
+
+.python-img{
+  width: 25%;
+  float: right;
+  margin: 0 0 10px 30px;
+}
+
+.intro{
+  width: 65%;
+  margin: 0 auto;
+}
+
+.contact-me {
+   background: #F5C6AA;
+   background-image: -webkit-linear-gradient(top, #F5C6AA, #BA8D73);
+   background-image: -moz-linear-gradient(top, #F5C6AA, #BA8D73);
+   background-image: -ms-linear-gradient(top, #F5C6AA, #BA8D73);
+   background-image: -o-linear-gradient(top, #F5C6AA, #BA8D73);
+   background-image: -webkit-gradient(to bottom, #F5C6AA, #BA8D73);
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+   color: #FFFFFF;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 0 20px;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #F5C6AA 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.contact-me:hover {
+   border: solid #F5C6AA 1px;
+   background: #BA886D;
+   background-image: -webkit-linear-gradient(top, #FFBE98, #FFBE98);
+   background-image: -moz-linear-gradient(top, #FFBE98, #FFBE98);
+   background-image: -ms-linear-gradient(top, #FFBE98, #FFBE98);
+   background-image: -o-linear-gradient(top, #FFBE98, #FFBE98);
+   background-image: -webkit-gradient(to bottom, #FFBE98, #FFBE98);
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+   text-decoration: none;
+}
+
+/****************** ID SELECTORS ********************/
+#copyright{
+  color: grey;
+  font-family: 'Open Sans', sans-serif;
+  font-size : 0.75rem;
+  padding: 10px 0 10px;
+}
